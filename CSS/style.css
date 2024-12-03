@@ -1,0 +1,332 @@
+*
+{
+    margin: 0;
+    background-color: #A3DBCC;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../FONTE/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../FONTE/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Playfair;
+    src: url(../FONTE/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+header
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 1000px;
+    font-family: 'Poppins';
+}
+
+#logo img
+{
+    margin-top: 25px;
+    width: 380px;
+}
+
+#mensagem img
+{
+    width: 120px;
+}
+
+nav img
+{
+    width: 40px;
+}
+
+header a
+{
+    font-size: 36px;
+    text-decoration: none;
+    color: black;
+}
+
+#novochat a
+{
+    font-size: 36px;
+    text-decoration: none;
+    color: black;
+}
+
+#abrirmensagem a
+{
+    font-size: 36px;
+    color: black;
+}
+
+#line2
+{
+    width: 100vw;
+    height: 3px;
+    background-color: black;
+}
+
+#text
+{
+    height: 288px;
+    width: 1304px;
+    margin-left: 92px;
+}
+
+#text h2
+{
+    font-size: 40px;
+    font-family: 'Inter';
+}
+
+#text p
+{
+    font-family: Playfair;
+    font-size: 36px;
+}
+
+main
+{
+    width: 100vw;
+    height: 100%;
+}
+
+main img
+{
+    width: 1200px;
+}
+
+#imgmain
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#line
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #BABABA;
+    width: 100%;
+    height: 4px;
+}
+
+#mensagemempresa
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#mensagemempresa img
+{
+    width: 256px;
+}
+
+#dadosempresa
+{
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+#novochat
+{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+#outsidebox
+{
+    border: 2px solid black;
+    margin-right: 50px;
+    box-shadow: 0px 3px 5px black;
+}
+
+#novochat a
+{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#pesquisaempresa input
+{
+    height: 50px;
+    width: 438px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+#atendimentoautomatico input
+{
+    height: 50px;
+    width: 438px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+#abrirmensagem
+{
+    margin-left: 50px;
+    margin-top: 25px;
+    width: 1322px;
+    text-align: center;
+}
+
+#linha
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#atendimento
+{
+    display: flex;
+    width: 100vw;
+}
+
+#atendimentoautomatico img
+{
+    width: 40px;
+}
+
+#atendimentobatepapo img
+{
+    width: 130px;
+}
+
+#pergunta
+{
+    display: flex;
+}
+
+#perguntabatepapo
+{
+    display: flex;
+}
+
+#line3
+{
+    background-color: black;
+    width: 5px;
+    height: 100vh; 
+}
+
+#atendimentoautomatico
+{
+    padding-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 50%;
+    font-size: 23px;
+}
+
+#atendimentobatepapo
+{
+    font-size: 23px;
+    padding-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#perguntabatepapo
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#suporte
+{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    font-size: 25px;
+    height: 150px;
+}
+
+#pergunta
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#avaliacoes img
+{
+    width: 130px;
+}
+
+#avaliacoes
+{
+    width: 50%;
+}
+
+#avaliacoes h1
+{
+    margin: 25px;
+}
+
+#estrelas img
+{
+    width: 30px;
+}
+
+#linhainst
+{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#instituicao
+{
+    display: flex;
+    margin: 25px;
+}
+
+#avalie
+{
+    display: flex;
+}
+
+#comentario
+{
+    margin: 25px;
+    font-size: 23px;
+}
+
+#comentario select
+{
+    margin-top: 25px;
+    font-size: 23px;
+}
+
+#comentario textarea
+{
+    margin-top: 25px;
+    font-size: 23px;
+}
